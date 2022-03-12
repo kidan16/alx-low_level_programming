@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-char ch1;
-char ch2;
+char a;
+char c;
 
-for (ch1 = 'a'; ch1 <= 'z'; ch1++);
+for (a = 'a'; a <= 'z'; a++);
 
 {
-putchar(ch1);
+putchar(a);
 }
 
-for (ch2 = 'A'; ch2 <= 'Z'; ch2++);
+for (c = 'A'; c <= 'Z'; c++);
 
 {
-putchar(ch2);
+putchar(c);
 }
 
 putchar('\n');
