@@ -12,11 +12,15 @@ char vc;
 
 for (ac = 'a'; ac <= 'z'; ac++);
 
-{putchar(ac);}
+{
+putchar(ac);
+}
 
 for (vc = 'A'; vc <= 'Z'; vc++);
 
-{putchar(vc);}
+{
+putchar(vc);
+}
 
 putchar('\n');
 
