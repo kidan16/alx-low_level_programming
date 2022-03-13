@@ -5,17 +5,17 @@
  * Return: Always 0
  */
 int main(void)
-
 {
 int a;
 
-for (a = 48; a <= 57; a++)
+putchar (48);
+
+for (a = 49; a <= 57; a++)
 {
-putchar (a);
 putchar (',');
 putchar (' ');
+putchar (a);
 }
-putchar ('\n');
 
 return (0);
 }
