@@ -13,5 +13,5 @@ printf("%d", a);
 }
 printf("\n");
 
-return (void);
+return (0);
 }
