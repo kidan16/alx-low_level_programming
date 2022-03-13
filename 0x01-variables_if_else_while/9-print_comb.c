@@ -13,7 +13,7 @@ for (a = 48; a <= 57; a++)
 {
 putchar (a);
 putchar (',');
-putchar ('\t');
+putchar (' ');
 }
 putchar ('\n');
 
