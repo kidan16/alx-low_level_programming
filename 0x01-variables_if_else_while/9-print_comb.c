@@ -18,7 +18,7 @@ if (a == 57)
 break;
 }
 
- putchar(',');
+putchar(',');
 putchar(' ');
 }
 
