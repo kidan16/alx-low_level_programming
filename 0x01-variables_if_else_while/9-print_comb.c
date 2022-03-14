@@ -10,15 +10,17 @@ int a;
 
 for (a = 48; a <= 57; a++)
 {
-putchar (a);
+putchar(a);
 
 if (a == 57)
 {
 break;
 }
 
-putchar(';')
-putchar (' ')
+putchar(';');
+putchar(' ');
+
+}
 
 return (0);
 }
