@@ -8,14 +8,17 @@ int main(void)
 {
 int a;
 
-putchar (48);
-
-for (a = 49; a <= 57; a++)
+for (a = 48; a <= 57; a++)
 {
-putchar (',');
-putchar (' ');
 putchar (a);
+
+if (a == 57)
+{
+break;
 }
+
+putchar(';')
+putchar (' ')
 
 return (0);
 }
