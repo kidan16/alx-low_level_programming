@@ -12,7 +12,12 @@ int i;
 printf("Infinite loop incoming :(\n");
 
 i = 0;
-/* The value of the integer i is always 0(not incremented) */
+
+/*while (i < 10)*/
+/*{*/
+/*putchar(i);*/
+/*}*/
+
 while (i < 10)
 {
 putchar(i);
