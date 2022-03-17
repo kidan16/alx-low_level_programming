@@ -7,7 +7,6 @@
 
 int _isupper(int c)
 {
-char c;
 
 if (c >= 'A')
 {
@@ -19,6 +18,5 @@ else
 return (0);
 }
 
-_putchar('\n')
-
 }
+      
