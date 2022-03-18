@@ -16,7 +16,7 @@ if (number % i == 0)
 {
 while (number % i == 0)
 {
-number /= i;
+number / = i;
 }
 large_factor = i;
 }
