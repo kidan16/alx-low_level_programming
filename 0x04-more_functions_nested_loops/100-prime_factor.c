@@ -22,7 +22,6 @@ large_factor = i;
 }
 i++;
 }
-printf("%lld\n\n", large_factor);
-Printf('\n');
+printf("%lld\n", large_factor);
 return (0);
 }
