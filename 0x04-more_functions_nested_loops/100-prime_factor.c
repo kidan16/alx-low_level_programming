@@ -23,5 +23,6 @@ large_factor = i;
 i++;
 }
 printf("%lld\n\n", large_factor);
+Printf('\n');
 return (0);
 }
