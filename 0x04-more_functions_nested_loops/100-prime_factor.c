@@ -9,19 +9,19 @@
 
 int main(void)
 {
-long long int number = 612852475143, large_factor = 0, i = 2;
+int number = 612852475143, large_factor = 0, i = 2;
 while (number != 1)
 {
 if (number % i == 0)
 {
 while (number % i == 0)
 {
-number / = i;
+number /= i;
 }
 large_factor = i;
 }
 i++;
 }
-printf("%lld\n", large_factor);
+printf("%d\n", large_factor);
 return (0);
 }
