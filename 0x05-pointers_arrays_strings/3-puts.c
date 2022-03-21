@@ -1,8 +1,7 @@
 #include "main.h"
-#include <string.h>
 /**
  * _puts -returns a string, followed by a new line.
- * @str: is the value of the char variable.
+ * @str: char pointer.
  *
  * Return: void.
  */
@@ -15,6 +14,7 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
+
 	_putchar('\n');
 
 	return (i);
