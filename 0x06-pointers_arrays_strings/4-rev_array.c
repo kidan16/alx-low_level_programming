@@ -1,32 +1,21 @@
-nclude "main.h"
+#include "main.h"
+
 /**
- *_strcmp- compares two strings.
- * a: is a string parameter.
- * n: is an int parameter.
- *
- * Return: void
+ * reverse_array - reverse an array.
+ * @a: array.
+ * @n: array's length.
  */
+
 void reverse_array(int *a, int n)
 {
-	int *start_c, *end_c, c;
-	int i;
-	
-	*start_c = a;
-	*end_c = a;
+		int i, j, tmp;
 
-	for (i = 0; i < n - 1; i++ )
-	{
-		*end_c++;
-	}
-
-	for (i = 0; i < n / 2; i++)
-	{ 
-		c = *end_c;
-		*end_c = *start_c;
-		*star_c = c;
-
-		start_c++;
-		end_c--;
-	}	
-
+		j = n - 1;
+		for (i = 0; i < n / 2; i++)
+		{
+			tmp = a[i];
+			a[i] = a[j];
+			a[j] = tmp;
+			j--;
+		}
 }
