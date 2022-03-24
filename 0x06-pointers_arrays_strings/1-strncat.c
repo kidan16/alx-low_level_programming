@@ -12,8 +12,8 @@ char *_strcat(char *dest, char *src, int n)
 	int l, j;
 
 	l = 0;
-	while (dest[l] != '\0') 
-	{	
+	while (dest[l] != '\0')
+	{
 		l++;
 	}
 
@@ -21,14 +21,14 @@ char *_strcat(char *dest, char *src, int n)
 	{
 		dest[l] = src[j];
 	}
-	for ( j= 0; j < n - 1; j++)
+	for (j = 0; j < n - 1; j++)
 	{
 		if (src[j] != '\0')
-		{ 
+		{
 			continue;
 		}
 		dust[l] = '\0'
 	}
-	
+
 	return (dest);
 }
