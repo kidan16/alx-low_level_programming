@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat- concatenates two strings.
+ * _strncpy- copy src and overwrite dest.
  * @dest: is a string parameter.
  * @src: is a string parameter.
  * @n: is an int parameter.
@@ -9,18 +9,16 @@
 char *_strncpy(char *dest, char *src, int n)
 
 {
-	int length, j;
+	int l, j;
 
-	length = 0;
-	while (dest[length] != '\0')
+	l = 0;
+
+	for (j = 0, j < n && src[j] != '\0'; j++, l++)
 	{
-		++length;
+		dest[l] = src[j];
 	}
 
-	for (j = 0; src[j] != '\0'; ++j, ++length)
-	{
-        	dest[length] = src[j];
-	}
+	dest[l] = '\0';
 
 	return (*dest);
 }
