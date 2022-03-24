@@ -17,18 +17,19 @@ char *_strcat(char *dest, char *src, int n)
 		l++;
 	}
 
-	for (j = 0; j <= n - 1; j++, l++)
+	for (j = 0; j < n && src[j] != '\0'; j++, l++)
 	{
 		dest[l] = src[j];
 	}
-	for (j = 0; j < n - 1; j++)
-	{
-		if (src[j] != '\0')
-		{
-			continue;
-		}
-		dust[l] = '\0'
-	}
 
+	if (src[n] != '\0')
+	{
+		dust[l] = src[j];
+	}
+		else
+		{
+			dust[l] = '\0';
+		}
+	
 	return (dest);
 }
