@@ -22,14 +22,7 @@ char *_strcat(char *dest, char *src, int n)
 		dest[l] = src[j];
 	}
 
-	if (src[n] != '\0')
-	{
-		dust[l] = src[j];
-	}
-		else
-		{
-			dust[l] = '\0';
-		}
-	
+	dust[l] = '\0';
+
 	return (dest);
 }
