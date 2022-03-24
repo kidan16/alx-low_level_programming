@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat- concatenates two strings limiting the the second string to n bytes.
+ * _strncat- concatenates two strings limiting the the second string to n bytes.
  * @dest: is a string parameter.
  * @src: is a string parameter.
  * @n: is an int parameter.
