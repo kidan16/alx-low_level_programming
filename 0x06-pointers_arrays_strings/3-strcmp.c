@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcmp- compares two strings.
- * @s1: is a string parameter.
- * @s2: is a string parameter.
+ * *s1: is a string parameter.
+ * *s2: is a string parameter.
  *
  * Return: int
  */
