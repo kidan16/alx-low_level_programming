@@ -9,27 +9,26 @@
 char *_strcat(char *dest, char *src, int n)
 
 {
-	int length, j;
+	int l, j;
 
-	length = 0;
-	while (dest[length] != '\0') 
+	l = 0;
+	while (dest[l] != '\0') 
 	{	
-		++length;
+		l++;
 	}
 
-	for (j = 0; (j + 1) <= n; ++j, ++length)
+	for (j = 0; j <= n - 1; j++, l++)
 	{
-		dest[length] = src[j];
+		dest[l] = src[j];
 	}
-	if ( (j + 1) >= n)
+	for ( j= 0; j < n - 1; j++)
 	{
-		_putchar(dest);
+		if (src[j] != '\0')
+		{ 
+			continue;
+		}
+		dust[l] = '\0'
 	}
-		else
-			{
-				dest[length] = '\n';
-				_putchar(dust);
-			}
-
+	
 	return (dest);
 }
