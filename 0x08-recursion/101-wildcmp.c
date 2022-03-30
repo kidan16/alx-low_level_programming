@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+/**
  * Compare two strings allowing for wildcard char
  * @s1: String being compared
  * @s2: String being compared against
