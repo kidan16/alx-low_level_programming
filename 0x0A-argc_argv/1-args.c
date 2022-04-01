@@ -2,7 +2,7 @@
 
 /**
  * main - main function.
- * @argc: int parameter.
+ * @argc: an int parameter.
  * @argv: array parameter.
  * Return: 0
  */
