@@ -9,6 +9,7 @@
  * @argv: array parameter.
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	unsigned int i, sum, num;
