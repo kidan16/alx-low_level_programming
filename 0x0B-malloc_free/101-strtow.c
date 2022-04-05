@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * **strtow - function that splits a string into words.
+ * -strtow - function that splits a string into words.
  * @str : pointer
  * Return: Char
  */
