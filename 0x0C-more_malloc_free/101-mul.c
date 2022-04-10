@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - program that multiplies two positive numbers
+ * main - a parogram that multiplies two positive numbers
  * @argc: number of arguments
  * @argv: arguments array
  * Return: 0 on success 98 on faliure
