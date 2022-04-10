@@ -4,7 +4,7 @@
 /**
  * _wcount - counts number of words
  * @sw: string
- * 
+ *
  * Return: int
  */
 int _wcount(char *sw)
@@ -27,7 +27,7 @@ int _wcount(char *sw)
 /**
  * _trspace - Moves adress to remove trailig whitespaces
  * @st: string
- * 
+ *
  * Return: Pointer
  */
 char *_trspace(char *st)
@@ -69,7 +69,7 @@ char **strtow(char *str)
 			break;
 		}
 		for (j = 0, l2 = 0; l2 < l; l2++, j++)
-																									s[i][j] = *(ts + l2);
+			s[i][j] = *(ts + l2);
 		s[i][j] = '\0';
 		ts = _trspace(ts + l);
 	}
@@ -81,4 +81,4 @@ char **strtow(char *str)
 		free(s);
 	}
 	return (s);
-} 
+}
