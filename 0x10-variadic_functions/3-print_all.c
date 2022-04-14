@@ -25,6 +25,7 @@ void op_string(char *)
 void print_all(const char * const format, ...)
 {
 	va_list pseudo;
+
 	va_start(pseudo, format);
 
 	op_t ops[] = {
@@ -36,12 +37,11 @@ void print_all(const char * const format, ...)
 	};
 	int i;
 
-
-	while()
-	while()
-		if()
-		if()
-		if()
+	while ()
+	while ()
+		if ()
+		if ()
+			if ()
 
 	printf("\n");
 }
