@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * mul - multipy a and b
  *
